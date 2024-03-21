@@ -8,7 +8,7 @@ namespace Unity.Multiplayer.Samples.Utilities.ClientAuthority
     /// for transforms that'll always be owned by the server.
     /// </summary>
     [DisallowMultipleComponent]
-    public class ClientNetworkTransformV3 : NetworkTransform
+    public class ClientNetworkTransform : NetworkTransform
     {
         /// <summary>
         /// Used to determine who can write to this transform. Owner client only.
